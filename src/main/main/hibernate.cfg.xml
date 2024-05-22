@@ -6,7 +6,7 @@
     <session-factory>
         <property name="dialect">org.sqlite.hibernate.dialect.SQLiteDialect</property>
         <property name="connection.driver_class">org.sqlite.JDBC</property>
-        <property name="connection.url">jdbc:sqlite:exemplo_hibernate.db</property>
+        <property name="connection.url">jdbc:sqlite:peliculas2.db</property>
         <property name="hbm2ddl.auto">create-only</property>
         <property name="hibernate.show_sql">true</property>
         <mapping resource="pelicula.hbm.xml"/>
