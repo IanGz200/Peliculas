@@ -29,9 +29,9 @@ public class Peliculas {
 
             Scanner scan = new Scanner(System.in);
 
-            System.out.println("Introduce os apelidos:");
+            System.out.println("Introduce o nome da pelicula:");
             String title = scan.nextLine();
-            System.out.println("Introduce o nome do xestor:");
+            System.out.println("Introduce o ano de publicacion");
             String year = scan.nextLine();
             
             session.beginTransaction();
